@@ -1,7 +1,7 @@
 import requests
 from requests.auth import HTTPBasicAuth
 import json
-import os
+import os1
 debug = False
 paypal_url = 'https://api.sandbox.paypal.com/v1/oauth2/token'
 headers = {'Accept': 'application/json', 'Accept-Language': 'en_US', 'content-type': 'application/x-www-form-urlencoded'}
